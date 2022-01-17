@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +15,20 @@ public class Main {
             e) w klasie Main proszę stworzyć objekty podobnie jak w przykładzie 5,
             oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>
          */
+        Samochod samochod = new Samochod("Opel","Astra",8000);
+        System.out.println(samochod.toString());
+        WiekszySilnik wiekszySilnik = new WiekszySilnik("Opel","Astra",8000,3000);
+        System.out.println(wiekszySilnik.toString());
+        System.out.println("Cena calkowita: " +wiekszySilnik.wyliczCene());
+        Samochod samochod1 = new Samochod("Ford","Fiesta",15000);
+        System.out.println(samochod1.toString());
+        WiekszySilnik wiekszySilnik1 = new WiekszySilnik("Ford","Fiesta",15000,2000);
+        System.out.println(wiekszySilnik1.toString());
+        System.out.println("Cena calkowita: " +wiekszySilnik1.wyliczCene());
+        List<Samochod>samochodLista = new ArrayList<>();
+        samochodLista.add(samochod);
+        samochodLista.add(wiekszySilnik1);
+        System.out.println(samochodLista);
 
     }
 }
