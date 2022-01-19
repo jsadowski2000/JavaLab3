@@ -2,16 +2,23 @@ public class Main {
 
     public static void main(String[] args) {
         /* ćw 4 klasy */
-
-        /* zad.1
+  /* zad.1
             a) Stworzyć klasę Osoba z polami prywatnymi:
             - imie (String),
             - nazwisko (String),
-            - indeks (Integer)
+            - indeks (Integer)*/
 
+  /*
             b) stworzyc konstruktory, gettery i settery
-            c) napisać metodę w klasie Osoba która zwróci informację o osobie,
-         */
+            c) napisać metodę w klasie Osoba która zwróci informację o osobie, */
+        Osoba janusz = new Osoba("Janusz", "Sadelko", 55555);
+        String januszName = janusz.getName();
+        String januszNazwisko = janusz.getNazwisko();
+        int januszIndeks = janusz.getIndeks();
+        System.out.println("Imie osoby: " + januszName);
+        System.out.println("Nazwisko osoby: " + januszNazwisko);
+        System.out.println("Ineks osoby: " + januszIndeks);
+    }}
 
         /* zad.2
             a) Stworzyć klasę Student z polami prywatnymi
@@ -28,5 +35,5 @@ public class Main {
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
 
-    }
-}
+
+
