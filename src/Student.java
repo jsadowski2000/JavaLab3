@@ -10,7 +10,7 @@ public class Student {
     @Override()
 
     public String toString() {
-        return "Imię: " + person.getName() + " Nazwisko: " + person.getSurname() + " Wydział: " + department;
+        return "Imię: " + person.getName() + " Nazwisko: " + person.getSurname() + " Wydział: " + department.getDepartment();
 
     }
 }
