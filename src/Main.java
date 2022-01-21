@@ -31,21 +31,7 @@ public class Main {
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /* zad.2
+ /* zad.2
             a) Stworzyć klasę Student z polami prywatnymi
             - Osoba osoba,
             - WydzialEnum wydzial;
